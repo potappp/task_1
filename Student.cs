@@ -30,7 +30,7 @@ namespace task_1
             // init;  заменил на set
             
             get => _surname;
-            //init => _surname = value;
+            init => _surname = value;
         }
         public string NameValue
         {
